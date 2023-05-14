@@ -38,7 +38,7 @@ public class AccountRegisterPageTest extends BaseTest {
         accountRegisterPage.enterFirstName("prime" + getAlphaNumericString(4));
         accountRegisterPage.enterLastName("test" + getAlphaNumericString(4));
         accountRegisterPage.enterEmail("prime" + getAlphaNumericString(4) + "@gmail.com");
-        accountRegisterPage.enterTelephone("07988112233");
+        accountRegisterPage.enterTelephone("07777777000");
         accountRegisterPage.enterPassword("test123");
         accountRegisterPage.enterConfirmPassword("test123");
         accountRegisterPage.selectSubscription("Yes");
